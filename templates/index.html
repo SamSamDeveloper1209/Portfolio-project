@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="hero">
+        <div class="hero-content">
+            <div class="left">
+                <h2>About me</h2>
+                <p>Hi, I'm Samuel Rivera, I'm a Python developer.<br>
+                I am a self-taught learner and I am very passionate about <br>
+                This learning methodology. <br>
+                I built this portfolio from scratch to show my skills <br> And the level of learning achievable
+                through self-teaching and dedication.<br>
+                It also shows the exploration of different technologies.<br>
+                Here are some of my best projects.</p>
+                <a class="btn" href="#contact">Contact me</a>
+            </div>
+            <div class="right">
+                <img src="{% static 'imgs/hero.png' %}" width="401px">
+            </div>
+        </div>
+    </div>
+
+{% include 'section-first.html' %}
+{% endblock %}

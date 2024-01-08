@@ -1,0 +1,91 @@
+body {
+    background-color: #010409ef;
+    margin: 0;
+    color: #E6EDE6;
+    font-family: 'Fira Code', monospace;
+}
+
+a {
+    transition: color 0.3s ease;
+    font-family: 'Rubik', sans-serif;
+    color: #E6EDE6;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #5efff2;
+}
+
+html body header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #161B22;
+    box-shadow: 3px 0 5px #010409;
+    padding: 20px 30px;
+}
+
+header .logo {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+html body header nav ul {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+html body nav ul li{
+    display: inline-block;
+}
+
+html body nav ul li a {
+    padding: 0 10px;
+}
+
+.hero {
+    padding: 20px 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.hero .hero-content {
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+}
+
+.hero h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.btn {
+    background-color: #191e25;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+}
+
+.hero .hero-content p {
+    margin-bottom: 30px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 1100px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
